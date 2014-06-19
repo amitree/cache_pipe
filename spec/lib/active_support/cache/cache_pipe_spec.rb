@@ -78,6 +78,11 @@ describe ActiveSupport::Cache::CachePipe do
       expect(subject.read :key).to be nil
     end
 
+    it 'returns nil when a different nil value is stored' do
+      internal_cache[:key] = ActiveSupport::Cache::CachePipe::WrappedNil.new
+      expect(subject.read :key).to be nil
+    end
+
     it 'returns nil on cache miss' do
       expect(subject.read :key).to be nil
     end

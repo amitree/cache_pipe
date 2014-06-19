@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'cache_pipe'
-  s.version     = '0.1'
+  s.version     = '0.2'
   s.date        = Date.today.to_s
   s.summary     = "Transforming wrapper for Rails cache stores"
   s.description = "Provides a wrapper around a Rails cache store, allowing values to be transformed before storage and after retrieval."

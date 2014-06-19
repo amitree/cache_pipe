@@ -60,7 +60,7 @@ module ActiveSupport
 
       def unwrap_nil(value)
         case value
-        when NIL_VALUE
+        when WrappedNil
           nil
         else
           value
