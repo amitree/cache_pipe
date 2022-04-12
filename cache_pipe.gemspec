@@ -1,3 +1,5 @@
+require 'date'
+
 Gem::Specification.new do |s|
   s.name        = 'cache_pipe'
   s.version     = '0.2'
@@ -11,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/amitree/cache_pipe'
   s.license     = 'MIT'
 
-  s.required_ruby_version = '~> 2.0'
+  s.required_ruby_version = '~> 3.1.1.0'
 
   s.add_development_dependency 'rspec', '3.0.0'
 end
