@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/amitree/cache_pipe'
   s.license     = 'MIT'
 
-  s.required_ruby_version = '~> 3.1.1.0'
+  s.required_ruby_version = '~> 3.1'
 
   s.add_development_dependency 'rspec', '3.0.0'
 end
